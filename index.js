@@ -15,9 +15,9 @@ function logWhisper(string) {
 }
 
 function sayHiToHeadphonedRoommate (string) {
-    var cantHear = "I can't hear you!";
-    var yesIndeed = "YES INDEED!";
-    var lovToo = "I would love to!";
+    const cantHear = "I can't hear you!";
+    const yesIndeed = "YES INDEED!";
+    const loveToo = "I would love to!";
     if (string.toLowerCase(string) === string) {
       return cantHear;
     }
@@ -25,6 +25,6 @@ function sayHiToHeadphonedRoommate (string) {
       return yesIndeed;
     }
     else if ("Let's have dinner together!" === string) {
-      return lovToo
+      return loveToo
     }
   }
